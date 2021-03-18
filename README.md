@@ -1,0 +1,1 @@
+# agslot interface
