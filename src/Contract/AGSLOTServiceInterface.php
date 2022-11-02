@@ -17,5 +17,12 @@ interface AGSLOTServiceInterface {
      */
     function gameLaunch(string $op_code, string $account, string $game_code, string $language);
 
+    /**
+     * 交易失敗，補分
+     * @param string $op_code
+     * @param string $order_no
+     * @return mixed
+     */
+    function orderFailCheck(string $op_code, string $order_no);
 }
 
